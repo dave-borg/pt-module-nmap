@@ -1,0 +1,17 @@
+{
+    "description": "NMAP (Network Mapper) is an open-source network scanning and security auditing tool that uses IP packets to discover and analyze network hosts, services, and security posture. Its core functions include host discovery through ping and port scanning methods, port scanning to identify open ports and services using SYN/TCP/UDP techniques, service detection to determine running applications and versions, operating system detection via TCP/IP fingerprinting, and a scripting engine (NSE) for custom functionality. Key features include multiple scanning techniques from stealth to aggressive, firewall/IDS evasion, IPv4/IPv6 support, multiple output formats, and performance tuning options. It's primarily used for network inventory, security auditing, penetration testing, system monitoring, and vulnerability assessment. NMAP is widely used by IT professionals for both defensive security assessment and offensive security testing.",
+    "name": "NMAP",
+    "version": "0.1",
+    "docsUrl": "",
+    "supportChannels": "",
+    "supportedPlatformVersion": "",
+    "installInstructions": "apk update && apk add --no-cache nmap sudo",
+    "prerequisites": "",
+    "testCaseCommand": "",
+    "expectedTestResult": "",
+    "attackChainTags": [
+        "Reconnaissance"
+    ],
+    "risks": "",
+    "gitRepoUrl": ""
+}
